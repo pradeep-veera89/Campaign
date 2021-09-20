@@ -1,0 +1,36 @@
+# Campaign 
+
+## Go Logic
+1. Handlers
+    a. leadPageHandler - (/)
+    b. SuccessHandler  - (/sucess.html)
+    c. ErrorHanlder    - (/error.html)
+2. URL - localhost:8080
+3. DB - postgresql
+4. LeadJSON
+5. UnitTests
+
+Version - 1 
+## Application Flow
+1. Take the Lead details from Lead Page
+2. Store the Lead Details in Database.
+3. Redirect to Success Page if the status is successfull.
+4. Redirect to error Page if the status is failed.
+
+## HTML Pages
+1. LeadPage (Start Page)
+2. Success Page
+3. Error Page.
+
+## Database
+1. Campaign 
+2. Leads 
+
+## HTML Form Fields 
+a. Salutation
+b. FirstName
+c. LastName
+d. EMail Address.
+e. Submit Button
+
+

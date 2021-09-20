@@ -1,0 +1,8 @@
+create_table("leads") {
+  t.Column("id", "integer", {primary: true})
+  t.Column("email", "string", {"size": 150})
+  t.Column("first_name", "string", {"size": 50})
+  t.Column("last_name", "string", {"size": 50})
+  t.Column("salutation", "string" )
+  t.Index("email", {"unique": true})
+}
